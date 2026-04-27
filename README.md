@@ -1,52 +1,80 @@
 Gridbased
-Gridbased is a prototype strategy game about rebuilding and defending a settlement after collapse.
-You build outward from a central core, place structures, connect them, shape the board over time, and then survive raids using a combat deck generated from what you built. The goal is for the settlement itself to feel like the game, not just a background for menus and side panels.
+Prototype strategy game about building, connecting, and defending a radial settlement around a central core.
 
-Right now the project is focused on a few main ideas:
+Pattern View:
+<img width="1909" height="933" alt="image" src="https://github.com/user-attachments/assets/840664a9-e92f-4901-bec0-778192f8c5a5" />
+Build View:
+<img width="1904" height="933" alt="image" src="https://github.com/user-attachments/assets/f33cae67-a2e9-47c4-823b-fad0ce98abcc" />
+Raid View:
+<img width="1883" height="930" alt="image" src="https://github.com/user-attachments/assets/2f32290d-5ba1-4b49-8bda-ce2935f8ff58" />
+
+
+About
+Gridbased is a prototype strategy game where you rebuild and defend a settlement after collapse.
+The game is built around a central core. From there, you place structures, connect them, shape the board over time, and survive raids using combat tools generated from what you built. The goal is to make the settlement itself feel like the game, not just a background for menus or side panels.
+
+The long-term direction is to make the board feel like a living canvas:
+- structures give the settlement physical form
+- connections shape how the network behaves
+- density, support, and layout matter
+- raids test the board you created
+
+Current direction
+The current prototype is focused on a few main ideas:
 - a radial settlement board
 - neutral base structures
 - connections between structures
 - ideology shaping the network over time
+- upkeep, wear, and recovery
 - raid combat tied directly to the board
-- upkeep, damage, and recovery between raids
 
-The current structure set is built around a few simple practical buildings:
-Farm, Mine, Workshop, Watchtower, Well, and Muster Hall.
+The main structure set currently revolves around:
+- Farm
+- Mine
+- Workshop
+- Watchtower
+- Well
+- Muster Hall
+These are meant to be the practical backbone of the settlement. The board becomes more expressive through how structures are placed, connected, stacked, and modified over time.
 
-These are meant to be the backbone of the settlement. The long-term direction is that the board becomes more expressive through how structures are placed, connected, stacked, and shaped, rather than through lots of separate special-case buildings.
+Core loop
+The current loop is built around three phases:
 
-The game currently revolves around three phases.
-
-Build:
+Build
 Place structures, connect them, manage wear and upkeep, and shape the settlement.
 
-Pre-Raid:
+Pre-Raid
 Prepare the combat pool for the next raid.
 
-Raid:
-Fight a duel-style card battle where your settlement determines what tools you have available.
-The three broad identities in the game are Scrap, Tech, and Magic.
-Scrap is the default physical presence of the settlement. It comes from density, occupation, and stacking.
-Tech is about structure, routing, and cleaner angular connections.
-Magic is about resonance, curves, circles, and more symbolic board shapes.
-The game is still a prototype and is actively changing. The current focus is on making the board easier to read, improving connections and ideology application, making raids more meaningful, and getting the overall feel of the settlement right.
+Raid
+Fight a duel-style card battle where the settlement determines what tools you have available.
 
-Tech stack:
-TypeScript, Vite, HTML/CSS, and SVG-based board rendering/interactions.
+Ideologies
+The game currently revolves around three broad identities:
 
-How to run:
+Scrap  
+The default physical presence of the settlement. It comes from density, occupation, clustering, and stacking.
 
-1. Install dependencies
+Tech  
+A more structured and deliberate layer that pushes the board toward cleaner, more angular connections.
+
+Magic  
+A more resonant and symbolic layer that pushes the board toward curves, circles, and stronger high-ceiling effects.
+
+Current status
+This is still an active prototype, not a finished game.
+
+The current focus is on:
+- improving the board-first feel
+- making connections intuitive
+- reducing UI clutter
+- making raids more meaningful
+- making settlement growth feel rewarding
+- tying the board and combat together more tightly
+
+How to run
+
+Install dependencies:
+
+```bash id="8e36wd"
 npm install
-
-2. Start the development server
-npm run dev
-
-3. Build the project
-npm run build
-
-Project notes:
-There are also internal project files like PLAN.md, AGENTS.md, and NEW_DESIGN.md. Those are mainly for development and iteration. This README is just the public-facing overview.
-
-Current status:
-This is not a finished game. It is an active prototype. The main goal right now is to make the settlement board feel good to build on, easy to understand, and tightly connected to combat.
