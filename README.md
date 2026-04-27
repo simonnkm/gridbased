@@ -1,4 +1,4 @@
-Gridbased
+Gridbased:
 Prototype strategy game about building, connecting, and defending a radial settlement around a central core.
 
 Pattern View:
@@ -8,8 +8,7 @@ Build View:
 Raid View:
 <img width="1883" height="930" alt="image" src="https://github.com/user-attachments/assets/2f32290d-5ba1-4b49-8bda-ce2935f8ff58" />
 
-
-About
+About:
 Gridbased is a prototype strategy game where you rebuild and defend a settlement after collapse.
 The game is built around a central core. From there, you place structures, connect them, shape the board over time, and survive raids using combat tools generated from what you built. The goal is to make the settlement itself feel like the game, not just a background for menus or side panels.
 
@@ -19,7 +18,7 @@ The long-term direction is to make the board feel like a living canvas:
 - density, support, and layout matter
 - raids test the board you created
 
-Current direction
+Current direction:
 The current prototype is focused on a few main ideas:
 - a radial settlement board
 - neutral base structures
@@ -37,31 +36,31 @@ The main structure set currently revolves around:
 - Muster Hall
 These are meant to be the practical backbone of the settlement. The board becomes more expressive through how structures are placed, connected, stacked, and modified over time.
 
-Core loop
+Core loop:
 The current loop is built around three phases:
 
-Build
+Build:
 Place structures, connect them, manage wear and upkeep, and shape the settlement.
 
-Pre-Raid
+Pre-Raid:
 Prepare the combat pool for the next raid.
 
-Raid
+Raid:
 Fight a duel-style card battle where the settlement determines what tools you have available.
 
-Ideologies
+Ideologies:
 The game currently revolves around three broad identities:
 
-Scrap  
+Scrap:
 The default physical presence of the settlement. It comes from density, occupation, clustering, and stacking.
 
-Tech  
+Tech:
 A more structured and deliberate layer that pushes the board toward cleaner, more angular connections.
 
-Magic  
+Magic:
 A more resonant and symbolic layer that pushes the board toward curves, circles, and stronger high-ceiling effects.
 
-Current status
+Current status:
 This is still an active prototype, not a finished game.
 
 The current focus is on:
