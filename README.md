@@ -61,7 +61,7 @@ Magic:
 A more resonant and symbolic layer that pushes the board toward curves, circles, and stronger high-ceiling effects.
 
 Current status:
-This is still an active prototype, not a finished game.
+This project is still an active prototype, so some design and planning documents are included in the repo alongside the code.
 
 The current focus is on:
 - improving the board-first feel
@@ -71,9 +71,24 @@ The current focus is on:
 - making settlement growth feel rewarding
 - tying the board and combat together more tightly
 
+Tech Stack:
+- TypeScript
+- Vite
+- HTML / CSS
+- SVG-based board rendering and interaction
+
 How to run
 
 Install dependencies:
 
 ```bash id="8e36wd"
 npm install
+```
+Start the development server:
+```
+npm run dev
+```
+Build the project:
+```
+npm run build
+```
