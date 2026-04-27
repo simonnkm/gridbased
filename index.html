@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post-Flare Pattern Defense</title>
+  </head>
+  <body>
+    <div id="app" class="app-shell board-first">
+      <main id="board-shell" class="settlement-stage" aria-label="Settlement canvas">
+        <div id="phaser-target" class="phaser-target settlement-surface" aria-label="Settlement board"></div>
+        <section id="hud-root" class="panel floating-panel topbar-floating" aria-live="polite"></section>
+        <aside class="floating-stack left-floating-stack" aria-label="Settlement overlays left">
+          <section id="patterns-root" class="panel floating-panel stack-panel patterns-floating" aria-live="polite"></section>
+          <section id="progression-root" class="panel floating-panel stack-panel progression-floating" aria-live="polite"></section>
+          <section id="intel-root" class="panel floating-panel stack-panel intel-floating" aria-live="polite"></section>
+        </aside>
+        <aside class="floating-stack right-floating-stack" aria-label="Settlement overlays right">
+          <section id="brief-root" class="panel floating-panel stack-panel brief-floating" aria-live="polite"></section>
+          <section id="pattern-debug-root" class="panel floating-panel stack-panel debug-floating" aria-live="polite"></section>
+        </aside>
+      </main>
+
+      <section id="hand-root" class="panel hand-dock hand-dock-floating" aria-live="polite"></section>
+      <section id="raid-root" class="panel raid-panel raid-overlay" aria-live="polite" hidden></section>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

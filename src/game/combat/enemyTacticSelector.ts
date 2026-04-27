@@ -1,0 +1,2 @@
+export { enemyArchetypeStyleTags } from "./enemyArchetypes";
+
